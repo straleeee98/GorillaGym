@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+
+    font-family:'Ubuntu','sans-serif';
+    color: #545454;
+}
+a{text-decoration: none;}
+ul{list-style-type: none;}
+.cleaner{clear: both;}
+.center-block{
+
+    width: 70%;
+    margin: 0px auto;
+
+}
+
+.dm-2{margin-right: 2%;}
+.dm-4{margin-right: 4%;}
+#wrapper{
+
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#wrapper a{color: #545454;}
+#logo{float: left;}
+#navigation{float: right;}
+#navigation ul li{
+display:block;
+float: left;
+margin-left: 15px;
+width: 80px;
+text-align: center;
+padding-bottom: 5px;
+}
+#cover-slika{
+    width: 100%;
+    height: 500px;
+    background:url("img/cover.jpg") no repeat center;
+}
+
+#transparentna-boja{
+    width: inherit;
+    height: inherit;
+    background:rgba(0,0,0,0.5)
+    
+}
+
+#naslov{
+
+    width: inherit;
+    padding: 30px 0px;
+    position:absolute;
+    bottom:0px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+#naslov h2{
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#about-us{padding: 20px 0px;}
+.naslov{
+    text-align: center;
+    padding: 30px 0px;
+}
+.naslov h3{
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.about-us-article{
+    width: 48%;
+    float: left;
+}
+.about-us-article:first-child{padding-top: 35px;}
+.about-us-article p{
+
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+}
+.about-us-article img{width:100%;}
+#plans,#contact-us{
+    background-color: #f8f8f8;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#plans .naslov, #contact-us.naslov{
+border-bottom: 1px solid #e5e5e5;
+padding-bottom: 0px;
+margin-bottom: 40px;
+}
+.plans h4{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.usluga i{
+width:100%;
+text-align: center;
+color: #e05d46;
+font-size: 25px;
+margin: 20px 0px;
+
+}
+.plans p{line-height: 20px;}
+#gallery{
+    margin-top: 30px;
+    padding-bottom:50px;
+}
+.slika{
+    width:23.5%;
+    float:left;
+}
+.slika img{width: 100%;}
+#contact-us.color{
+    width:50%;
+    margin: 0px auto;
+}
+
+.form-color{margin-bottom: 20px;}
+.field{
+    width: 48%;
+    float: left;
+}
+.field input, .field label, .form-color label, .form-color textarea{
+
+    display:block;
+    width: 100%;
+}
+
+.form-color label{
+margin-bottom: 7px;
+font-size: 14px;
+color: rgba(0,0,0,0.6);
+}
+.form-color input, .form-color textarea{
+    border:1px solid #e5e5e5;
+    padding: 7px 0px;
+}
+
+.form-color textarea{height:70px;}
+.forma-color input[type="button"]{
+width: 100%;
+background-color: #e05d46;
+border: none;
+color: #fff;
+padding:10px 0px;
+
+}
+#futer a{color:#fff;}
+#prava{
+
+    float: left;
+    font-size: 14px;
+}
+#mreze{float: right;}
+#mreze ul li{display:inline;}
+
+
+
+
+
